@@ -1,7 +1,13 @@
 function mostrar()
 {
-	alert("ok");
+	let repetir;
 
-
-
-}//FIN DE LA FUNCIÓN
+	for(i = 0; i < 1000; i-- )
+	{
+		repetir = prompt("Ingrese un numero hasta que ponga break");
+		if(repetir == "9")
+		{
+			break;
+		}
+	}
+}

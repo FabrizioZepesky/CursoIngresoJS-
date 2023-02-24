@@ -1,8 +1,14 @@
 function mostrar()
 {
+	let mensaje;
+	let cantRep;
 
-	var repetciones = prompt("ingrese el número de repeticiones");
-	alert("ok");
+	mensaje = " Hola UTN FRA <br>"
+	cantRep = parseInt(prompt("Pone un numero posho"));
 
+	for(let i = 0; i < cantRep; i++)
+	{
+		document.write(mensaje);
+	}
 
-}//FIN DE LA FUNCIÓN
+}
